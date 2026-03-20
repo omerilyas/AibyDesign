@@ -1,0 +1,128 @@
+site_name: "LTRCOL-2011: AI by Design for Collaboration"
+site_description: "Hands-on lab guide for Cisco Live US 2026 — Exploring AI-powered features across Webex Messaging, Calling, Meetings, Customer Assist, Contact Center, Slido, and Vidcast."
+site_author: Cisco Systems
+
+theme:
+  name: material
+  palette:
+    - media: "(prefers-color-scheme: light)"
+      scheme: default
+      primary: teal
+      accent: cyan
+      toggle:
+        icon: material/brightness-7
+        name: Switch to dark mode
+    - media: "(prefers-color-scheme: dark)"
+      scheme: slate
+      primary: teal
+      accent: cyan
+      toggle:
+        icon: material/brightness-4
+        name: Switch to light mode
+  features:
+    - navigation.top
+    - search.suggest
+    - search.highlight
+    - content.tabs.link
+
+markdown_extensions:
+  - admonition
+  - pymdownx.details
+  - pymdownx.superfences:
+      custom_fences:
+        - name: mermaid
+          class: mermaid
+          format: !!python/name:pymdownx.superfences.fence_code_format
+  - pymdownx.tabbed:
+      alternate_style: true
+  - pymdownx.tasklist:
+      custom_checkbox: true
+      clickable_checkbox: true
+  - attr_list
+  - tables
+
+extra_css:
+  - css/custom.css
+
+extra_javascript:
+  - js/interactive-checkboxes.js
+  - js/floating-notepad.js
+
+plugins:
+  - search
+
+nav:
+  - Home: index.md
+  - About this Lab: about-this-lab.md
+  - Accessing your Lab: accessing-your-lab.md
+
+  - "Module 1: Setup your Lab Environment":
+      - Overview: module-1-setup-your-lab-environment/index.md
+      - "1a: Activating and Configuring the Cisco AI Assistant": module-1-setup-your-lab-environment/module-1a-activating-and-configuring-the-cisco-ai-assistant.md
+      - "1b: AI Assistant in Control Hub": module-1-setup-your-lab-environment/module-1b-ai-assistant-in-control-hub.md
+      - "1c: Enabling AI Features for Vidcast": module-1-setup-your-lab-environment/module-1c-enabling-ai-features-for-vidcast.md
+      - "1d: Ordering Phone Numbers for Users": module-1-setup-your-lab-environment/module-1d-ordering-phone-numbers-for-users.md
+      - "1e: Assigning Webex Calling License and Phone Number": module-1-setup-your-lab-environment/module-1e-assigning-webex-calling-license-and-phone-number.md
+      - "1f: Registering Cisco 9800 Phone": module-1-setup-your-lab-environment/module-1f-registering-cisco-9800-phone.md
+      - "1g: Login to Webex Clients": module-1-setup-your-lab-environment/module-1g-login-to-webex-clients.md
+
+  - "Module 2: Enhancing Messaging with Webex AI":
+      - Overview: module-2-enhancing-messaging-with-webex-ai/index.md
+      - "2a: Ask Me Anything — AI Assistant for Messaging": module-2-enhancing-messaging-with-webex-ai/module-2a-ask-me-anything-ai-assistant-for-messaging.md
+      - "2b: Space Summaries": module-2-enhancing-messaging-with-webex-ai/module-2b-space-summaries.md
+      - "2c: Smart Rewrite": module-2-enhancing-messaging-with-webex-ai/module-2c-smart-rewrite.md
+      - "2d: Real-Time Message Translation": module-2-enhancing-messaging-with-webex-ai/module-2d-real-time-message-translation.md
+
+  - "Module 3: AI-Powered Features in Webex Calling":
+      - Overview: module-3-ai-powered-features-in-webex-calling/index.md
+      - "3a: AI Audio Intelligence on Cisco 9800 Phones": module-3-ai-powered-features-in-webex-calling/module-3a-ai-audio-intelligence-on-cisco-9800-phones.md
+      - "3b: AI-Generated Closed Captions and Call Transcriptions": module-3-ai-powered-features-in-webex-calling/module-3b-ai-generated-closed-captions-and-call-transcriptions.md
+      - "3c: Test Closed Captions and AI-Generated Call Transcription": module-3-ai-powered-features-in-webex-calling/module-3c-test-closed-captions-and-ai-generated-call-transcription.md
+      - "3d: Closed Captions and Transcriptions for Call Recordings": module-3-ai-powered-features-in-webex-calling/module-3d-ai-generated-closed-captions-for-call-recordings.md
+
+  - "Module 4: AI-Powered Webex Meetings":
+      - Overview: module-4-ai-powered-webex-meetings/index.md
+      - "4a: Language Detection, Closed Captions and Real-Time Translation": module-4-ai-powered-webex-meetings/module-4a-language-detection-closed-captions-and-real-time-translation.md
+      - "4b: Webex AI Assistant in Webex Meetings": module-4-ai-powered-webex-meetings/module-4b-webex-ai-assistant-in-webex-meetings.md
+      - "4c: AI Intelligence in Webex Recordings": module-4-ai-powered-webex-meetings/module-4c-ai-intelligence-in-webex-recordings.md
+      - "4d: Live Closed Captions on Cisco 9800 Phone": module-4-ai-powered-webex-meetings/module-4d-live-closed-captions-on-cisco-9800-phone.md
+      - "4e: Webex AI Assistant on Cisco 9800 Phone": module-4-ai-powered-webex-meetings/module-4e-webex-ai-assistant-on-cisco-9800-phone.md
+
+  - "Module 5: Customer Assist":
+      - Overview: module-5-customer-assist/index.md
+      - "5a: Customer Assist License Assignment": module-5-customer-assist/module-5a-customer-assist-license-assignment.md
+      - "5b: Create Announcements with Text-to-Speech": module-5-customer-assist/module-5b-create-announcements-with-text-to-speech.md
+      - "5c: Customer Assist Queue Configuration": module-5-customer-assist/module-5c-customer-assist-queue-configuration.md
+      - "5d: Supervisor Configuration for Customer Assist": module-5-customer-assist/module-5d-supervisor-configuration-for-customer-assist.md
+      - "5e: Auto Attendant Configuration": module-5-customer-assist/module-5e-auto-attendant-configuration.md
+      - "5f: AI Summaries for Call Queue Recordings": module-5-customer-assist/module-5f-customer-assist-ai-summaries-for-call-queue-recordings.md
+
+  - "Module 6: AI Agents in Webex Contact Center":
+      - Overview: module-6-ai-agents-in-webex-contact-center/index.md
+      - "6a: Configuring Autonomous AI Agents": module-6-ai-agents-in-webex-contact-center/module-6a-configuring-autonomous-ai-agents.md
+      - "6b: Testing and Validating AI Agents": module-6-ai-agents-in-webex-contact-center/module-6b-testing-and-validating-ai-agents.md
+
+  - "Module 7: Transforming Engagement with Slido AI":
+      - Overview: module-7-transforming-engagement-with-slido-ai/index.md
+      - "7a: Configuring Generative AI for Slido": module-7-transforming-engagement-with-slido-ai/module-7a-configuring-generative-ai-for-slido.md
+      - "7b: Creating AI-Generated Polls from Prompts": module-7-transforming-engagement-with-slido-ai/module-7b-creating-ai-generated-polls-from-prompts.md
+      - "7c: AI-Generated Interactions from Slides": module-7-transforming-engagement-with-slido-ai/module-7c-ai-generated-interactions-from-slides.md
+      - "7d: AI-Driven Quizzes": module-7-transforming-engagement-with-slido-ai/module-7d-ai-driven-quizzes.md
+      - "7e: AI for Question Management": module-7-transforming-engagement-with-slido-ai/module-7e-ai-for-question-management.md
+
+  - "Module 8: Elevating Vidcast with AI":
+      - Overview: module-8-elevating-vidcast-with-ai/index.md
+      - "8a: Review AI Features": module-8-elevating-vidcast-with-ai/module-8a-review-ai-features.md
+      - "8b: Creating AI-Generated Vidcasts": module-8-elevating-vidcast-with-ai/module-8b-creating-ai-generated-vidcasts.md
+
+  - "Module 9: AI Frameworks":
+      - Overview: module-9-ai-frameworks/index.md
+      - "9a: Omer will add": module-9-ai-frameworks/module-9a-omer-will-add.md
+
+  - Appendix:
+      - Overview: appendix/index.md
+      - Slido Reference: appendix/slido.md
+      - Vidcast Reference: appendix/vidcast.md
+      - "Legacy / Additional Items": appendix/legacy-or-extra-items.md
+
+  - Project Task Board: project-task-board.md

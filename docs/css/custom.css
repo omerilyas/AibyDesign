@@ -1,0 +1,4 @@
+.proctor-card:hover .proctor-email {
+  max-height: 2rem !important;
+  opacity: 1 !important;
+}

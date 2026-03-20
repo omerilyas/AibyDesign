@@ -1,0 +1,10 @@
+.venv/
+site/
+__pycache__/
+*.pyc
+.DS_Store
+omerinfo.txt
+.claude/
+extract_lab.py
+claude_code_mkdocs_prompt.md
+docs/LTRCOL-2011 - AI Lab Guide.docx
