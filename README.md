@@ -2,8 +2,6 @@
 
 Hands-on lab guide for **Cisco Live US 2026** covering AI-powered features across Webex Messaging, Calling, Meetings, Customer Assist, Contact Center, Slido, and Vidcast.
 
-Built with [MkDocs](https://www.mkdocs.org/) and the [Material for MkDocs](https://squidfunk.github.io/mkdocs-material/) theme.
-
 ## Quick Start
 
 ### 1. Create and activate the virtual environment
