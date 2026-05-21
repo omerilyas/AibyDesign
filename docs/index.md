@@ -37,6 +37,13 @@ Welcome to the **Cisco Live US 2026** hands-on lab for AI-powered features in Ci
 <div class="proctor-email" style="font-size:0.75rem;margin-top:0.5rem;padding:0.25rem 0.5rem;background:rgba(230,81,0,0.12);border-radius:4px;color:#049fd9;max-height:0;overflow:hidden;opacity:0;transition:all 0.3s;">shalong@cisco.com</div>
 </div>
 
+<div class="proctor-card" style="background:var(--md-code-bg-color, #f5f5f5);border-radius:10px;padding:1.2rem 1rem;text-align:center;border:1px solid var(--md-default-fg-color--lightest, #e0e0e0);cursor:default;position:relative;">
+<div style="width:56px;height:56px;border-radius:50%;background:linear-gradient(135deg,#3949ab,#1a237e);margin:0 auto 0.7rem;display:flex;align-items:center;justify-content:center;color:#fff;font-weight:700;font-size:1.2rem;">VY</div>
+<div style="font-weight:700;font-size:1rem;line-height:1.3;">Venky Yechuri</div>
+<div style="font-size:0.8rem;color:var(--md-default-fg-color--light);margin-top:0.2rem;">Technical Projects Systems Engineer</div>
+<div class="proctor-email" style="font-size:0.75rem;margin-top:0.5rem;padding:0.25rem 0.5rem;background:rgba(57,73,171,0.12);border-radius:4px;color:#049fd9;max-height:0;overflow:hidden;opacity:0;transition:all 0.3s;">vyechuri@cisco.com</div>
+</div>
+
 </div>
 </div>
 

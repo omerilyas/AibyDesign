@@ -1,14 +1,24 @@
-# About this Lab
+# About this Lab: Building AI-Powered Messaging with LangChain & Webex
 
+In Modules 1 to 4, you explored how Cisco Webex uses Artificial Intelligence to enhance collaboration experiences across Messaging, Calling, and Meetings. You experienced capabilities such as AI-powered message assistance, conversation summaries, smart rewrites, live translations, meeting intelligence, captions, transcriptions, and AI-generated insights.
 
-In this immersive, hands-on lab, you will unlock the revolutionary potential of Artificial Intelligence (AI) across the entire Webex Suite. As AI continues to redefine the modern workplace, this session is designed to show you how these technologies fundamentally transform collaboration, communication, and customer interactions. You will explore how Webex AI empowers administrators with better oversight, enriches employee productivity through smarter workflows, and delights customers with more personalized experiences.
+While these features demonstrate what AI can do inside Webex, the next logical step is to understand how these experiences are actually built.
 
-Throughout this lab, you will gain practical, "eyes-on-glass" experience in the following areas:
+In this hands-on lab, we will take a step further and explore how modern AI frameworks (such as **LangChain**) can be used alongside the **Webex APIs** to build intelligent messaging workflows and agentic experiences.
 
-1. Administration: Setting up the Cisco AI Assistant in Control Hub for advanced management and analytics.
-2. Communication: Leveraging AI-powered Webex Calling features, including smart audio, live transcriptions, and automated call summaries.
-3. Collaboration: Enhancing Webex Meetings and Messaging with real-time insights, "Catch Me Up" summaries, and smart message rewriting.
-4. Meetings:  Webex Meetings uses AI to provide real-time transcription, meeting summaries, and action items, helping participants stay informed without manual note-taking
-5. Customer Experience: Implementing the AI Receptionist for automated support and optimizing Customer Assist with AI-driven sentiment analysis.
-6. AI Agent (Webex Contact Center): AI Agent in Webex Contact Center uses conversational AI to interact with customers through voice and digital channels, handling common inquiries automatically and providing instant responses.
-7. Engagement: Creating dynamic Vidcasts and boosting audience interaction with Slido’s generative AI capabilities.
+You will learn how developers and architects can leverage AI models, orchestration frameworks, and APIs to create real-world conversational solutions within Webex Messaging.
+
+## Throughout this lab, you will explore:
+
+- **Webex Messaging APIs**: Understanding how applications interact with Webex spaces, users, and messages programmatically.
+- **LangChain Fundamentals**: Learning how LangChain orchestrates prompts, memory, tools, and workflows to power AI applications.
+- **Building AI-Powered Messaging Workflows**: Creating logic that can read, process, and respond to Webex messages intelligently.
+- **Introduction to AI Agents**: Understanding how agents can reason, make decisions, and perform actions based on context and instructions.
+- **Prompt Engineering & LLM Integration**: Connecting Large Language Models (LLMs) to Webex workflows for intelligent responses.
+
+By the end of this lab, you will not only understand how AI features appear inside Webex, but also gain insight into how AI-powered experiences are designed, orchestrated, and built using frameworks like LangChain and Webex APIs.
+
+!!! tip "The shift in mindset"
+    Think of this module as moving from **"using AI"** to **"building AI."**
+
+This lab is designed to provide a practical and approachable introduction to the foundations of **agentic AI**, helping you understand the core building blocks behind intelligent collaboration experiences.
