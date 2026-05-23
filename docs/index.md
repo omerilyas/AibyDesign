@@ -1,6 +1,58 @@
 # LTRCOL-2011: AI by Design for Collaboration
 
-Welcome to the **Cisco Live US 2026** hands-on lab for AI-powered features in Cisco Webex.
+<div class="hero-banner" style="position:relative;border-radius:18px;padding:2.2rem 1.4rem 2rem;margin:1.2rem 0 2.4rem;background:linear-gradient(135deg,#004d66 0%,#0288d1 45%,#7b1fa2 100%);color:#fff;overflow:hidden;text-align:center;box-shadow:0 12px 32px rgba(0,0,0,0.18);">
+
+<div style="position:absolute;inset:0;opacity:0.10;pointer-events:none;background:radial-gradient(circle at 20% 0%, #fff 0, transparent 35%), radial-gradient(circle at 90% 100%, #fff 0, transparent 30%);"></div>
+
+<div class="hero-ascii-wrap" style="margin:0 auto 1.1rem;color:rgba(255,255,255,0.95);font-family:'SFMono-Regular','Menlo','Consolas',monospace;line-height:1.05;letter-spacing:0;text-shadow:0 0 14px rgba(255,255,255,0.18);display:flex;flex-direction:column;align-items:center;text-align:center;">
+<pre class="hero-ascii" style="margin:0;white-space:pre;display:inline-block;text-align:left;">
+ █████╗ ██╗    ██████╗ ██╗   ██╗
+██╔══██╗██║    ██╔══██╗╚██╗ ██╔╝
+███████║██║    ██████╔╝ ╚████╔╝
+██╔══██║██║    ██╔══██╗  ╚██╔╝
+██║  ██║██║    ██████╔╝   ██║
+╚═╝  ╚═╝╚═╝    ╚═════╝    ╚═╝
+</pre>
+<pre class="hero-ascii" style="margin:0.3rem 0 0;white-space:pre;display:inline-block;text-align:left;">
+██████╗ ███████╗███████╗██╗ ██████╗ ███╗   ██╗
+██╔══██╗██╔════╝██╔════╝██║██╔════╝ ████╗  ██║
+██║  ██║█████╗  ███████╗██║██║  ███╗██╔██╗ ██║
+██║  ██║██╔══╝  ╚════██║██║██║   ██║██║╚██╗██║
+██████╔╝███████╗███████║██║╚██████╔╝██║ ╚████║
+╚═════╝ ╚══════╝╚══════╝╚═╝ ╚═════╝ ╚═╝  ╚═══╝
+</pre>
+</div>
+
+<div style="font-size:0.78rem;font-weight:700;letter-spacing:0.32em;color:rgba(255,255,255,0.78);margin-bottom:0.4rem;">LTRCOL-2011</div>
+
+<div class="hero-title" style="font-weight:800;line-height:1.15;margin:0 0 0.6rem;color:#fff;">AI by Design for Collaboration</div>
+
+<div class="hero-tagline" style="color:rgba(255,255,255,0.92);max-width:640px;margin:0 auto 1.4rem;line-height:1.5;">Hands-on AI for Cisco Webex Messaging, built with LangChain, Google Colab, and a few lines of Python.</div>
+
+<div style="display:flex;justify-content:center;flex-wrap:wrap;gap:0.5rem;">
+<span style="font-size:0.78rem;font-weight:700;color:#0288d1;background:#fff;padding:0.35rem 0.9rem;border-radius:24px;letter-spacing:0.04em;">⚡ CISCO LIVE US 2026</span>
+<span style="font-size:0.78rem;font-weight:700;color:#fff;background:rgba(255,255,255,0.18);border:1px solid rgba(255,255,255,0.35);padding:0.35rem 0.9rem;border-radius:24px;letter-spacing:0.04em;backdrop-filter:blur(4px);">2 MODULES · ~50 MIN</span>
+<span style="font-size:0.78rem;font-weight:700;color:#fff;background:rgba(255,255,255,0.18);border:1px solid rgba(255,255,255,0.35);padding:0.35rem 0.9rem;border-radius:24px;letter-spacing:0.04em;backdrop-filter:blur(4px);">🐍 PYTHON · LANGCHAIN · WEBEX APIs</span>
+</div>
+
+</div>
+
+<style>
+/* Container-query sizing: ASCII font scales with the hero card's actual width.
+   Falls back to viewport-based sizing on browsers without container queries. */
+.hero-banner { container-type: inline-size; }
+.hero-ascii { font-size: clamp(0.34rem, 2.2cqw, 0.85rem); }
+.hero-title { font-size: clamp(1.3rem, 4cqw, 2rem); }
+.hero-tagline { font-size: clamp(0.85rem, 2cqw, 1rem); }
+@supports not (container-type: inline-size) {
+  .hero-ascii { font-size: clamp(0.34rem, 1.6vw, 0.85rem); }
+  .hero-title { font-size: clamp(1.3rem, 3.2vw, 2rem); }
+  .hero-tagline { font-size: clamp(0.85rem, 1.5vw, 1rem); }
+}
+@media (max-width: 380px) {
+  .hero-ascii { font-size: 0.32rem; }
+}
+</style>
 
 <div style="margin:2rem 0 2.5rem 0;" markdown>
 
@@ -48,7 +100,7 @@ Welcome to the **Cisco Live US 2026** hands-on lab for AI-powered features in Ci
 </div>
 
 <h2 style="margin-bottom:0.2rem;">Lab Modules</h2>
-<p style="color:var(--md-default-fg-color--light);margin-bottom:1.2rem;font-size:0.92rem;">9 modules &middot; ~215+ minutes &middot; Hands-on AI across the Webex platform</p>
+<p style="color:var(--md-default-fg-color--light);margin-bottom:1.2rem;font-size:0.92rem;">2 modules &middot; ~45 minutes &middot; Hands-on AI for Webex Messaging with LangChain</p>
 
 <div style="display:grid;grid-template-columns:repeat(2, 1fr);gap:1rem;margin-bottom:2rem;">
 
@@ -56,107 +108,30 @@ Welcome to the **Cisco Live US 2026** hands-on lab for AI-powered features in Ci
 <div style="background:var(--md-code-bg-color, #f5f5f5);border-radius:12px;padding:1.2rem 1.3rem;border:1px solid var(--md-default-fg-color--lightest, #e0e0e0);border-left:4px solid #009688;transition:box-shadow 0.2s,transform 0.2s;cursor:pointer;width:100%;display:flex;flex-direction:column;" onmouseover="this.style.boxShadow='0 4px 16px rgba(0,0,0,0.10)';this.style.transform='translateY(-2px)'" onmouseout="this.style.boxShadow='none';this.style.transform='none'">
 <div style="display:flex;align-items:center;justify-content:space-between;margin-bottom:0.5rem;">
 <span style="font-size:0.75rem;font-weight:700;color:#fff;background:#009688;padding:0.15rem 0.6rem;border-radius:20px;">MODULE 1</span>
-<span style="font-size:0.78rem;font-weight:600;color:var(--md-default-fg-color--light);">45 min</span>
+<span style="font-size:0.78rem;font-weight:600;color:var(--md-default-fg-color--light);">30 min</span>
 </div>
 <div style="font-weight:700;font-size:0.95rem;line-height:1.4;">Setup your Lab Environment</div>
-<div style="font-size:0.8rem;color:var(--md-default-fg-color--light);margin-top:0.3rem;">Activate AI Assistant, order DIDs, register phones, log in to Webex clients</div>
+<div style="font-size:0.8rem;color:var(--md-default-fg-color--light);margin-top:0.3rem;">Webex token, Google Colab, OpenAI API key, plus primers on Streamlit and ngrok</div>
 </div>
 </a>
 
-<a href="module-2-enhancing-messaging-with-webex-ai/" style="text-decoration:none;color:inherit;display:flex;">
+<a href="module-2-langchain-for-messaging-intelligence/" style="text-decoration:none;color:inherit;display:flex;">
 <div style="background:var(--md-code-bg-color, #f5f5f5);border-radius:12px;padding:1.2rem 1.3rem;border:1px solid var(--md-default-fg-color--lightest, #e0e0e0);border-left:4px solid #0288d1;transition:box-shadow 0.2s,transform 0.2s;cursor:pointer;width:100%;display:flex;flex-direction:column;" onmouseover="this.style.boxShadow='0 4px 16px rgba(0,0,0,0.10)';this.style.transform='translateY(-2px)'" onmouseout="this.style.boxShadow='none';this.style.transform='none'">
 <div style="display:flex;align-items:center;justify-content:space-between;margin-bottom:0.5rem;">
 <span style="font-size:0.75rem;font-weight:700;color:#fff;background:#0288d1;padding:0.15rem 0.6rem;border-radius:20px;">MODULE 2</span>
 <span style="font-size:0.78rem;font-weight:600;color:var(--md-default-fg-color--light);">15 min</span>
 </div>
-<div style="font-weight:700;font-size:0.95rem;line-height:1.4;">Enhancing Messaging with Webex AI</div>
-<div style="font-size:0.8rem;color:var(--md-default-fg-color--light);margin-top:0.3rem;">Ask Me Anything, space summaries, smart rewrite, real-time translation</div>
-</div>
-</a>
-
-<a href="module-3-ai-powered-features-in-webex-calling/" style="text-decoration:none;color:inherit;display:flex;">
-<div style="background:var(--md-code-bg-color, #f5f5f5);border-radius:12px;padding:1.2rem 1.3rem;border:1px solid var(--md-default-fg-color--lightest, #e0e0e0);border-left:4px solid #7b1fa2;transition:box-shadow 0.2s,transform 0.2s;cursor:pointer;width:100%;display:flex;flex-direction:column;" onmouseover="this.style.boxShadow='0 4px 16px rgba(0,0,0,0.10)';this.style.transform='translateY(-2px)'" onmouseout="this.style.boxShadow='none';this.style.transform='none'">
-<div style="display:flex;align-items:center;justify-content:space-between;margin-bottom:0.5rem;">
-<span style="font-size:0.75rem;font-weight:700;color:#fff;background:#7b1fa2;padding:0.15rem 0.6rem;border-radius:20px;">MODULE 3</span>
-<span style="font-size:0.78rem;font-weight:600;color:var(--md-default-fg-color--light);">25 min</span>
-</div>
-<div style="font-weight:700;font-size:0.95rem;line-height:1.4;">AI-Powered Features in Webex Calling</div>
-<div style="font-size:0.8rem;color:var(--md-default-fg-color--light);margin-top:0.3rem;">Audio intelligence on 9800 phones, closed captions, call transcriptions</div>
-</div>
-</a>
-
-<a href="module-4-ai-powered-webex-meetings/" style="text-decoration:none;color:inherit;display:flex;">
-<div style="background:var(--md-code-bg-color, #f5f5f5);border-radius:12px;padding:1.2rem 1.3rem;border:1px solid var(--md-default-fg-color--lightest, #e0e0e0);border-left:4px solid #e65100;transition:box-shadow 0.2s,transform 0.2s;cursor:pointer;width:100%;display:flex;flex-direction:column;" onmouseover="this.style.boxShadow='0 4px 16px rgba(0,0,0,0.10)';this.style.transform='translateY(-2px)'" onmouseout="this.style.boxShadow='none';this.style.transform='none'">
-<div style="display:flex;align-items:center;justify-content:space-between;margin-bottom:0.5rem;">
-<span style="font-size:0.75rem;font-weight:700;color:#fff;background:#e65100;padding:0.15rem 0.6rem;border-radius:20px;">MODULE 4</span>
-<span style="font-size:0.78rem;font-weight:600;color:var(--md-default-fg-color--light);">40 min</span>
-</div>
-<div style="font-weight:700;font-size:0.95rem;line-height:1.4;">AI-Powered Webex Meetings</div>
-<div style="font-size:0.8rem;color:var(--md-default-fg-color--light);margin-top:0.3rem;">Language detection, real-time translation, AI assistant, recording intelligence</div>
-</div>
-</a>
-
-<a href="module-5-customer-assist/" style="text-decoration:none;color:inherit;display:flex;">
-<div style="background:var(--md-code-bg-color, #f5f5f5);border-radius:12px;padding:1.2rem 1.3rem;border:1px solid var(--md-default-fg-color--lightest, #e0e0e0);border-left:4px solid #00897b;transition:box-shadow 0.2s,transform 0.2s;cursor:pointer;width:100%;display:flex;flex-direction:column;" onmouseover="this.style.boxShadow='0 4px 16px rgba(0,0,0,0.10)';this.style.transform='translateY(-2px)'" onmouseout="this.style.boxShadow='none';this.style.transform='none'">
-<div style="display:flex;align-items:center;justify-content:space-between;margin-bottom:0.5rem;">
-<span style="font-size:0.75rem;font-weight:700;color:#fff;background:#00897b;padding:0.15rem 0.6rem;border-radius:20px;">MODULE 5</span>
-<span style="font-size:0.78rem;font-weight:600;color:var(--md-default-fg-color--light);">35 min</span>
-</div>
-<div style="font-weight:700;font-size:0.95rem;line-height:1.4;">Customer Assist</div>
-<div style="font-size:0.8rem;color:var(--md-default-fg-color--light);margin-top:0.3rem;">License assignment, text-to-speech, queue config, AI call summaries</div>
-</div>
-</a>
-
-<a href="module-6-ai-agents-in-webex-contact-center/" style="text-decoration:none;color:inherit;display:flex;">
-<div style="background:var(--md-code-bg-color, #f5f5f5);border-radius:12px;padding:1.2rem 1.3rem;border:1px solid var(--md-default-fg-color--lightest, #e0e0e0);border-left:4px solid #c62828;transition:box-shadow 0.2s,transform 0.2s;cursor:pointer;width:100%;display:flex;flex-direction:column;" onmouseover="this.style.boxShadow='0 4px 16px rgba(0,0,0,0.10)';this.style.transform='translateY(-2px)'" onmouseout="this.style.boxShadow='none';this.style.transform='none'">
-<div style="display:flex;align-items:center;justify-content:space-between;margin-bottom:0.5rem;">
-<span style="font-size:0.75rem;font-weight:700;color:#fff;background:#c62828;padding:0.15rem 0.6rem;border-radius:20px;">MODULE 6</span>
-<span style="font-size:0.78rem;font-weight:600;color:var(--md-default-fg-color--light);">15 min</span>
-</div>
-<div style="font-weight:700;font-size:0.95rem;line-height:1.4;">AI Agents in Webex Contact Center</div>
-<div style="font-size:0.8rem;color:var(--md-default-fg-color--light);margin-top:0.3rem;">Configure and test autonomous AI agents with knowledge bases</div>
-</div>
-</a>
-
-<a href="module-7-transforming-engagement-with-slido-ai/" style="text-decoration:none;color:inherit;display:flex;">
-<div style="background:var(--md-code-bg-color, #f5f5f5);border-radius:12px;padding:1.2rem 1.3rem;border:1px solid var(--md-default-fg-color--lightest, #e0e0e0);border-left:4px solid #1565c0;transition:box-shadow 0.2s,transform 0.2s;cursor:pointer;width:100%;display:flex;flex-direction:column;" onmouseover="this.style.boxShadow='0 4px 16px rgba(0,0,0,0.10)';this.style.transform='translateY(-2px)'" onmouseout="this.style.boxShadow='none';this.style.transform='none'">
-<div style="display:flex;align-items:center;justify-content:space-between;margin-bottom:0.5rem;">
-<span style="font-size:0.75rem;font-weight:700;color:#fff;background:#1565c0;padding:0.15rem 0.6rem;border-radius:20px;">MODULE 7</span>
-<span style="font-size:0.78rem;font-weight:600;color:var(--md-default-fg-color--light);">25 min</span>
-</div>
-<div style="font-weight:700;font-size:0.95rem;line-height:1.4;">Transforming Engagement with Slido AI</div>
-<div style="font-size:0.8rem;color:var(--md-default-fg-color--light);margin-top:0.3rem;">AI-generated polls, interactions from slides, quizzes, question management</div>
-</div>
-</a>
-
-<a href="module-8-elevating-vidcast-with-ai/" style="text-decoration:none;color:inherit;display:flex;">
-<div style="background:var(--md-code-bg-color, #f5f5f5);border-radius:12px;padding:1.2rem 1.3rem;border:1px solid var(--md-default-fg-color--lightest, #e0e0e0);border-left:4px solid #6a1b9a;transition:box-shadow 0.2s,transform 0.2s;cursor:pointer;width:100%;display:flex;flex-direction:column;" onmouseover="this.style.boxShadow='0 4px 16px rgba(0,0,0,0.10)';this.style.transform='translateY(-2px)'" onmouseout="this.style.boxShadow='none';this.style.transform='none'">
-<div style="display:flex;align-items:center;justify-content:space-between;margin-bottom:0.5rem;">
-<span style="font-size:0.75rem;font-weight:700;color:#fff;background:#6a1b9a;padding:0.15rem 0.6rem;border-radius:20px;">MODULE 8</span>
-<span style="font-size:0.78rem;font-weight:600;color:var(--md-default-fg-color--light);">15 min</span>
-</div>
-<div style="font-weight:700;font-size:0.95rem;line-height:1.4;">Elevating Vidcast with AI</div>
-<div style="font-size:0.8rem;color:var(--md-default-fg-color--light);margin-top:0.3rem;">Review AI features, create AI-generated vidcasts from presentations</div>
-</div>
-</a>
-
-<a href="module-9-ai-frameworks/" style="text-decoration:none;color:inherit;display:flex;">
-<div style="background:var(--md-code-bg-color, #f5f5f5);border-radius:12px;padding:1.2rem 1.3rem;border:1px solid var(--md-default-fg-color--lightest, #e0e0e0);border-left:4px solid #455a64;transition:box-shadow 0.2s,transform 0.2s;cursor:pointer;width:100%;display:flex;flex-direction:column;" onmouseover="this.style.boxShadow='0 4px 16px rgba(0,0,0,0.10)';this.style.transform='translateY(-2px)'" onmouseout="this.style.boxShadow='none';this.style.transform='none'">
-<div style="display:flex;align-items:center;justify-content:space-between;margin-bottom:0.5rem;">
-<span style="font-size:0.75rem;font-weight:700;color:#fff;background:#455a64;padding:0.15rem 0.6rem;border-radius:20px;">MODULE 9</span>
-<span style="font-size:0.78rem;font-weight:600;color:var(--md-default-fg-color--light);">TBD</span>
-</div>
-<div style="font-weight:700;font-size:0.95rem;line-height:1.4;">AI Frameworks</div>
-<div style="font-size:0.8rem;color:var(--md-default-fg-color--light);margin-top:0.3rem;">Content coming soon</div>
+<div style="font-weight:700;font-size:0.95rem;line-height:1.4;">LangChain for Messaging Intelligence</div>
+<div style="font-size:0.8rem;color:var(--md-default-fg-color--light);margin-top:0.3rem;">Connect LangChain to Webex Messaging APIs and turn space history into Documents</div>
 </div>
 </a>
 
 </div>
 
 <h2 style="margin-bottom:0.2rem;">Getting Started</h2>
-<p style="color:var(--md-default-fg-color--light);margin-bottom:1.2rem;font-size:0.92rem;">Three steps to begin your lab journey</p>
+<p style="color:var(--md-default-fg-color--light);margin-bottom:1.2rem;font-size:0.92rem;">Two steps to begin your lab journey</p>
 
-<div style="display:grid;grid-template-columns:repeat(3, 1fr);gap:1rem;margin-bottom:1.2rem;">
+<div style="display:grid;grid-template-columns:repeat(2, 1fr);gap:1rem;margin-bottom:1.2rem;">
 
 <a href="about-this-lab/" style="text-decoration:none;color:inherit;display:flex;">
 <div style="background:var(--md-code-bg-color, #f5f5f5);border-radius:12px;padding:1.5rem 1.3rem 1.3rem;text-align:center;border:1px solid var(--md-default-fg-color--lightest, #e0e0e0);transition:box-shadow 0.2s,transform 0.2s;cursor:pointer;display:flex;flex-direction:column;align-items:center;width:100%;height:240px;" onmouseover="this.style.boxShadow='0 4px 16px rgba(0,0,0,0.10)';this.style.transform='translateY(-2px)'" onmouseout="this.style.boxShadow='none';this.style.transform='none'">
@@ -166,19 +141,11 @@ Welcome to the **Cisco Live US 2026** hands-on lab for AI-powered features in Ci
 </div>
 </a>
 
-<a href="accessing-your-lab/" style="text-decoration:none;color:inherit;display:flex;">
-<div style="background:var(--md-code-bg-color, #f5f5f5);border-radius:12px;padding:1.5rem 1.3rem 1.3rem;text-align:center;border:1px solid var(--md-default-fg-color--lightest, #e0e0e0);transition:box-shadow 0.2s,transform 0.2s;cursor:pointer;display:flex;flex-direction:column;align-items:center;width:100%;height:240px;" onmouseover="this.style.boxShadow='0 4px 16px rgba(0,0,0,0.10)';this.style.transform='translateY(-2px)'" onmouseout="this.style.boxShadow='none';this.style.transform='none'">
-<div style="width:48px;height:48px;border-radius:50%;background:linear-gradient(135deg,#0288d1,#01579b);margin-bottom:0.8rem;display:flex;align-items:center;justify-content:center;color:#fff;font-weight:800;font-size:1.3rem;flex-shrink:0;">2</div>
-<div style="font-weight:700;font-size:0.95rem;line-height:1.3;">Access your Lab Pod</div>
-<div style="font-size:0.8rem;color:var(--md-default-fg-color--light);margin-top:0.3rem;">Connect to dCloud and open your workstation</div>
-</div>
-</a>
-
 <a href="module-1-setup-your-lab-environment/" style="text-decoration:none;color:inherit;display:flex;">
 <div style="background:var(--md-code-bg-color, #f5f5f5);border-radius:12px;padding:1.5rem 1.3rem 1.3rem;text-align:center;border:1px solid var(--md-default-fg-color--lightest, #e0e0e0);transition:box-shadow 0.2s,transform 0.2s;cursor:pointer;display:flex;flex-direction:column;align-items:center;width:100%;height:240px;" onmouseover="this.style.boxShadow='0 4px 16px rgba(0,0,0,0.10)';this.style.transform='translateY(-2px)'" onmouseout="this.style.boxShadow='none';this.style.transform='none'">
-<div style="width:48px;height:48px;border-radius:50%;background:linear-gradient(135deg,#7b1fa2,#4a148c);margin-bottom:0.8rem;display:flex;align-items:center;justify-content:center;color:#fff;font-weight:800;font-size:1.3rem;flex-shrink:0;">3</div>
+<div style="width:48px;height:48px;border-radius:50%;background:linear-gradient(135deg,#7b1fa2,#4a148c);margin-bottom:0.8rem;display:flex;align-items:center;justify-content:center;color:#fff;font-weight:800;font-size:1.3rem;flex-shrink:0;">2</div>
 <div style="font-weight:700;font-size:0.95rem;line-height:1.3;">Start Module 1</div>
-<div style="font-size:0.8rem;color:var(--md-default-fg-color--light);margin-top:0.3rem;">Set up your lab environment and begin</div>
+<div style="font-size:0.8rem;color:var(--md-default-fg-color--light);margin-top:0.3rem;">Set up your Webex token and Google Colab</div>
 </div>
 </a>
 

@@ -16,27 +16,13 @@
   // Maps URL fragments to task IDs used across all pages.
   var URL_TO_TASK = {
     "module-1a": "1a", "module-1b": "1b", "module-1c": "1c",
-    "module-1d": "1d", "module-1e": "1e", "module-1f": "1f",
-    "module-1g": "1g",
-    "module-2a": "2a", "module-2b": "2b", "module-2c": "2c",
-    "module-2d": "2d",
-    "module-3a": "3a", "module-3b": "3b", "module-3c": "3c",
-    "module-3d": "3d",
-    "module-4a": "4a", "module-4b": "4b", "module-4c": "4c",
-    "module-4d": "4d", "module-4e": "4e",
-    "module-5a": "5a", "module-5b": "5b", "module-5c": "5c",
-    "module-5d": "5d", "module-5e": "5e", "module-5f": "5f",
-    "module-6a": "6a", "module-6b": "6b",
-    "module-7a": "7a", "module-7b": "7b", "module-7c": "7c",
-    "module-7d": "7d", "module-7e": "7e",
-    "module-8a": "8a", "module-8b": "8b",
-    "module-9a": "9a"
+    "module-1d": "1d", "module-1e": "1e",
+    "module-2a": "2a"
   };
 
-  // Also match "About this Lab" and "Accessing your Lab"
+  // Also match "About this Lab"
   var SPECIAL_PAGES = {
-    "about-this-lab": "about",
-    "accessing-your-lab": "access"
+    "about-this-lab": "about"
   };
 
   // ── State helpers ─────────────────────────────────────────────────────
@@ -98,7 +84,6 @@
     if (m) return m[1];
     // Special pages
     if (text.toLowerCase().indexOf("about this lab") === 0) return "about";
-    if (text.toLowerCase().indexOf("accessing your lab") === 0) return "access";
     return null;
   }
 

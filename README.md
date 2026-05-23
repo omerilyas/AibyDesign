@@ -98,19 +98,11 @@ The site will update within 1-2 minutes. Check deployment status at https://gith
 └── docs/
     ├── index.md                     # Home page
     ├── about-this-lab.md
-    ├── accessing-your-lab.md
     ├── project-task-board.md        # Progress tracker
     ├── css/custom.css               # Custom styles
     ├── js/interactive-checkboxes.js # Task progress + celebration
     ├── js/floating-notepad.js       # Per-page notepad
     ├── module-1-setup-your-lab-environment/
-    ├── module-2-enhancing-messaging-with-webex-ai/
-    ├── module-3-ai-powered-features-in-webex-calling/
-    ├── module-4-ai-powered-webex-meetings/
-    ├── module-5-customer-assist/
-    ├── module-6-ai-agents-in-webex-contact-center/
-    ├── module-7-transforming-engagement-with-slido-ai/
-    ├── module-8-elevating-vidcast-with-ai/
-    ├── module-9-ai-frameworks/
+    ├── module-2-langchain-for-messaging-intelligence/
     └── appendix/
 ```
