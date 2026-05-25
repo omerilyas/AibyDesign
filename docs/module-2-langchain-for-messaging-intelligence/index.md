@@ -1,8 +1,8 @@
 # Module 2: LangChain for Messaging Intelligence
 
 <div style="display:flex;align-items:center;gap:0.8rem;margin-bottom:1.5rem;flex-wrap:wrap;">
-<span style="font-size:0.8rem;font-weight:700;color:#fff;background:#0288d1;padding:0.2rem 0.8rem;border-radius:20px;">1 task</span>
-<span style="font-size:0.8rem;font-weight:600;color:var(--md-default-fg-color--light);">15 min estimated</span>
+<span style="font-size:0.8rem;font-weight:700;color:#fff;background:#0288d1;padding:0.2rem 0.8rem;border-radius:20px;">2 tasks</span>
+<span style="font-size:0.8rem;font-weight:600;color:var(--md-default-fg-color--light);">45 min estimated</span>
 </div>
 
 In earlier modules you explored Webex AI Assistant features such as **Ask Me Anything**, **Space Summaries**, **Smart Rewrite**, and **Translation**. These features show how AI can help users understand conversations, catch up quickly, improve communication, and work across languages.
@@ -37,16 +37,17 @@ In this module, you will build a simplified **Webex Messaging Intelligence Assis
 </div>
 </a>
 
-<div style="background:linear-gradient(135deg, rgba(2,136,209,0.10), rgba(2,136,209,0.02));border-radius:12px;padding:1rem 1.1rem;border:1px solid rgba(2,136,209,0.25);border-left:5px solid #0288d1;opacity:0.75;">
+<a href="module-2b-ask-me-anything-webex-spaces/" style="text-decoration:none;color:inherit;display:flex;">
+<div style="background:linear-gradient(135deg, rgba(2,136,209,0.10), rgba(2,136,209,0.02));border-radius:12px;padding:1rem 1.1rem;border:1px solid rgba(2,136,209,0.25);border-left:5px solid #0288d1;width:100%;display:flex;flex-direction:column;transition:box-shadow 0.2s,transform 0.2s;cursor:pointer;" onmouseover="this.style.boxShadow='0 4px 16px rgba(0,0,0,0.10)';this.style.transform='translateY(-2px)'" onmouseout="this.style.boxShadow='none';this.style.transform='none'">
 <div style="display:flex;align-items:center;gap:0.5rem;margin-bottom:0.4rem;flex-wrap:wrap;">
 <span style="font-size:1.1rem;">🔍</span>
 <span style="font-size:0.7rem;font-weight:700;color:#fff;background:#0288d1;padding:0.15rem 0.55rem;border-radius:20px;letter-spacing:0.04em;">TASK 2</span>
 <span style="font-size:0.65rem;font-weight:700;color:#0288d1;background:rgba(2,136,209,0.15);padding:0.1rem 0.45rem;border-radius:20px;letter-spacing:0.04em;">2b</span>
-<span style="font-size:0.6rem;font-weight:700;color:var(--md-default-fg-color--light);background:var(--md-default-fg-color--lightest, #e0e0e0);padding:0.1rem 0.45rem;border-radius:20px;letter-spacing:0.04em;">COMING SOON</span>
 </div>
 <div style="font-weight:700;font-size:0.95rem;line-height:1.35;color:var(--md-default-fg-color);">Ask Me Anything for Webex Spaces</div>
 <div style="font-size:0.78rem;color:var(--md-default-fg-color--light);margin-top:0.4rem;line-height:1.45;">RAG, embeddings, vector database</div>
 </div>
+</a>
 
 <div style="background:linear-gradient(135deg, rgba(123,31,162,0.10), rgba(123,31,162,0.02));border-radius:12px;padding:1rem 1.1rem;border:1px solid rgba(123,31,162,0.25);border-left:5px solid #7b1fa2;opacity:0.75;">
 <div style="display:flex;align-items:center;gap:0.5rem;margin-bottom:0.4rem;flex-wrap:wrap;">
@@ -98,3 +99,4 @@ In this module, you will build a simplified **Webex Messaging Intelligence Assis
 ## Tasks in this module
 
 - [ ] **Task 1 (2a):** [Connect LangChain to Webex Messaging (Read Webex Messages as AI Context)](module-2a-connect-langchain-to-webex-messaging.md)
+- [ ] **Task 2 (2b):** [Ask Me Anything for Webex Spaces (RAG over Webex Conversations)](module-2b-ask-me-anything-webex-spaces.md)

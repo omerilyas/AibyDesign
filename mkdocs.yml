@@ -79,6 +79,7 @@ nav:
   - "Module 2: LangChain for Messaging Intelligence":
       - Overview: module-2-langchain-for-messaging-intelligence/index.md
       - "2a: Connect LangChain to Webex Messaging": module-2-langchain-for-messaging-intelligence/module-2a-connect-langchain-to-webex-messaging.md
+      - "2b: Ask Me Anything for Webex Spaces": module-2-langchain-for-messaging-intelligence/module-2b-ask-me-anything-webex-spaces.md
 
   - Appendix:
       - Overview: appendix/index.md

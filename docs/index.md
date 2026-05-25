@@ -31,7 +31,7 @@
 
 <div style="display:flex;justify-content:center;flex-wrap:wrap;gap:0.5rem;">
 <span style="font-size:0.78rem;font-weight:700;color:#0288d1;background:#fff;padding:0.35rem 0.9rem;border-radius:24px;letter-spacing:0.04em;">⚡ CISCO LIVE US 2026</span>
-<span style="font-size:0.78rem;font-weight:700;color:#fff;background:rgba(255,255,255,0.18);border:1px solid rgba(255,255,255,0.35);padding:0.35rem 0.9rem;border-radius:24px;letter-spacing:0.04em;backdrop-filter:blur(4px);">2 MODULES · ~50 MIN</span>
+<span style="font-size:0.78rem;font-weight:700;color:#fff;background:rgba(255,255,255,0.18);border:1px solid rgba(255,255,255,0.35);padding:0.35rem 0.9rem;border-radius:24px;letter-spacing:0.04em;backdrop-filter:blur(4px);">2 MODULES · ~75 MIN</span>
 <span style="font-size:0.78rem;font-weight:700;color:#fff;background:rgba(255,255,255,0.18);border:1px solid rgba(255,255,255,0.35);padding:0.35rem 0.9rem;border-radius:24px;letter-spacing:0.04em;backdrop-filter:blur(4px);">🐍 PYTHON · LANGCHAIN · WEBEX APIs</span>
 </div>
 
@@ -100,33 +100,81 @@
 </div>
 
 <h2 style="margin-bottom:0.2rem;">Lab Modules</h2>
-<p style="color:var(--md-default-fg-color--light);margin-bottom:1.2rem;font-size:0.92rem;">2 modules &middot; ~45 minutes &middot; Hands-on AI for Webex Messaging with LangChain</p>
+<p style="color:var(--md-default-fg-color--light);margin-bottom:1.2rem;font-size:0.92rem;">2 modules &middot; ~75 minutes &middot; Hands-on AI for Webex Messaging with LangChain</p>
 
 <div style="display:grid;grid-template-columns:repeat(2, 1fr);gap:1rem;margin-bottom:2rem;">
 
-<a href="module-1-setup-your-lab-environment/" style="text-decoration:none;color:inherit;display:flex;">
-<div style="background:var(--md-code-bg-color, #f5f5f5);border-radius:12px;padding:1.2rem 1.3rem;border:1px solid var(--md-default-fg-color--lightest, #e0e0e0);border-left:4px solid #009688;transition:box-shadow 0.2s,transform 0.2s;cursor:pointer;width:100%;display:flex;flex-direction:column;" onmouseover="this.style.boxShadow='0 4px 16px rgba(0,0,0,0.10)';this.style.transform='translateY(-2px)'" onmouseout="this.style.boxShadow='none';this.style.transform='none'">
+<a href="module-1-setup-your-lab-environment/" class="module-card" style="--accent:#009688;text-decoration:none;color:inherit;display:flex;">
+<div class="module-card-inner" style="background:var(--md-code-bg-color, #f5f5f5);border-radius:12px;padding:1.2rem 1.3rem;border:1px solid var(--md-default-fg-color--lightest, #e0e0e0);border-left:4px solid #009688;cursor:pointer;width:100%;display:flex;flex-direction:column;">
 <div style="display:flex;align-items:center;justify-content:space-between;margin-bottom:0.5rem;">
 <span style="font-size:0.75rem;font-weight:700;color:#fff;background:#009688;padding:0.15rem 0.6rem;border-radius:20px;">MODULE 1</span>
 <span style="font-size:0.78rem;font-weight:600;color:var(--md-default-fg-color--light);">30 min</span>
 </div>
 <div style="font-weight:700;font-size:0.95rem;line-height:1.4;">Setup your Lab Environment</div>
 <div style="font-size:0.8rem;color:var(--md-default-fg-color--light);margin-top:0.3rem;">Webex token, Google Colab, OpenAI API key, plus primers on Streamlit and ngrok</div>
+<div class="module-card-hint" style="margin-top:0.6rem;font-size:0.7rem;font-weight:700;letter-spacing:0.06em;color:#009688;text-transform:uppercase;opacity:0.85;">▾ Hover to see tasks</div>
+<div class="module-card-tasks">
+<div style="font-size:0.7rem;font-weight:700;letter-spacing:0.06em;color:#009688;text-transform:uppercase;margin:0.6rem 0 0.45rem;">Tasks in this module</div>
+<div style="display:flex;flex-direction:column;gap:0.25rem;font-size:0.78rem;color:var(--md-default-fg-color);line-height:1.45;">
+<div><span style="font-weight:700;color:#009688;">1a</span> &middot; Webex Developer Portal Setup</div>
+<div><span style="font-weight:700;color:#009688;">1b</span> &middot; Google Colab Setup</div>
+<div><span style="font-weight:700;color:#009688;">1c</span> &middot; Managing API Keys in Colab</div>
+<div><span style="font-weight:700;color:#009688;">1d</span> &middot; Introduction to Streamlit</div>
+<div><span style="font-weight:700;color:#009688;">1e</span> &middot; Introduction to ngrok</div>
+</div>
+</div>
 </div>
 </a>
 
-<a href="module-2-langchain-for-messaging-intelligence/" style="text-decoration:none;color:inherit;display:flex;">
-<div style="background:var(--md-code-bg-color, #f5f5f5);border-radius:12px;padding:1.2rem 1.3rem;border:1px solid var(--md-default-fg-color--lightest, #e0e0e0);border-left:4px solid #0288d1;transition:box-shadow 0.2s,transform 0.2s;cursor:pointer;width:100%;display:flex;flex-direction:column;" onmouseover="this.style.boxShadow='0 4px 16px rgba(0,0,0,0.10)';this.style.transform='translateY(-2px)'" onmouseout="this.style.boxShadow='none';this.style.transform='none'">
+<a href="module-2-langchain-for-messaging-intelligence/" class="module-card" style="--accent:#0288d1;text-decoration:none;color:inherit;display:flex;">
+<div class="module-card-inner" style="background:var(--md-code-bg-color, #f5f5f5);border-radius:12px;padding:1.2rem 1.3rem;border:1px solid var(--md-default-fg-color--lightest, #e0e0e0);border-left:4px solid #0288d1;cursor:pointer;width:100%;display:flex;flex-direction:column;">
 <div style="display:flex;align-items:center;justify-content:space-between;margin-bottom:0.5rem;">
 <span style="font-size:0.75rem;font-weight:700;color:#fff;background:#0288d1;padding:0.15rem 0.6rem;border-radius:20px;">MODULE 2</span>
-<span style="font-size:0.78rem;font-weight:600;color:var(--md-default-fg-color--light);">15 min</span>
+<span style="font-size:0.78rem;font-weight:600;color:var(--md-default-fg-color--light);">45 min</span>
 </div>
 <div style="font-weight:700;font-size:0.95rem;line-height:1.4;">LangChain for Messaging Intelligence</div>
-<div style="font-size:0.8rem;color:var(--md-default-fg-color--light);margin-top:0.3rem;">Connect LangChain to Webex Messaging APIs and turn space history into Documents</div>
+<div style="font-size:0.8rem;color:var(--md-default-fg-color--light);margin-top:0.3rem;">Read Webex messages as Documents, then build a RAG-based Ask Me Anything for any space</div>
+<div class="module-card-hint" style="margin-top:0.6rem;font-size:0.7rem;font-weight:700;letter-spacing:0.06em;color:#0288d1;text-transform:uppercase;opacity:0.85;">▾ Hover to see tasks</div>
+<div class="module-card-tasks">
+<div style="font-size:0.7rem;font-weight:700;letter-spacing:0.06em;color:#0288d1;text-transform:uppercase;margin:0.6rem 0 0.45rem;">Tasks in this module</div>
+<div style="display:flex;flex-direction:column;gap:0.25rem;font-size:0.78rem;color:var(--md-default-fg-color);line-height:1.45;">
+<div><span style="font-weight:700;color:#0288d1;">2a</span> &middot; Connect LangChain to Webex Messaging</div>
+<div><span style="font-weight:700;color:#0288d1;">2b</span> &middot; Ask Me Anything for Webex Spaces</div>
+</div>
+</div>
 </div>
 </a>
 
 </div>
+
+<style>
+.module-card-inner {
+  transition: box-shadow 0.2s, transform 0.2s;
+}
+.module-card:hover .module-card-inner {
+  box-shadow: 0 6px 22px rgba(0,0,0,0.12);
+  transform: translateY(-2px);
+}
+/* Hidden by default, revealed on hover via grid-rows trick */
+.module-card-tasks {
+  display: grid;
+  grid-template-rows: 0fr;
+  overflow: hidden;
+  transition: grid-template-rows 0.3s ease, opacity 0.25s ease;
+  opacity: 0;
+}
+.module-card-tasks > * { min-height: 0; }
+.module-card:hover .module-card-tasks {
+  grid-template-rows: 1fr;
+  opacity: 1;
+}
+.module-card:hover .module-card-hint { display: none; }
+@media (hover: none) {
+  /* Touch devices: always show the task list, hide the hover hint */
+  .module-card-tasks { grid-template-rows: 1fr; opacity: 1; }
+  .module-card-hint { display: none; }
+}
+</style>
 
 <h2 style="margin-bottom:0.2rem;">Getting Started</h2>
 <p style="color:var(--md-default-fg-color--light);margin-bottom:1.2rem;font-size:0.92rem;">Two steps to begin your lab journey</p>

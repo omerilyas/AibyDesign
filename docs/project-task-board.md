@@ -6,8 +6,8 @@
 |--------|-------|-------|-----------|--------|
 | (pre) | [About this Lab](about-this-lab.md) | 1 | (5 min) | `todo` |
 | 1 | [Setup your Lab Environment](module-1-setup-your-lab-environment/index.md) | 5 | 30 min | `todo` |
-| 2 | [LangChain for Messaging Intelligence](module-2-langchain-for-messaging-intelligence/index.md) | 1 | 15 min | `todo` |
-| | **Totals** | **7 tasks** | **~50 min** | |
+| 2 | [LangChain for Messaging Intelligence](module-2-langchain-for-messaging-intelligence/index.md) | 2 | 45 min | `todo` |
+| | **Totals** | **8 tasks** | **~75 min** | |
 
 ## Full Task Checklist
 
@@ -23,9 +23,10 @@
 - [ ] 1d: Introduction to Streamlit (5 min)
 - [ ] 1e: Introduction to ngrok (5 min)
 
-### Module 2: LangChain for Messaging Intelligence (15 min)
+### Module 2: LangChain for Messaging Intelligence (45 min)
 
-- [ ] 2a: Connect LangChain to Webex Messaging (Read Webex Messages as AI Context)
+- [ ] 2a: Connect LangChain to Webex Messaging (Read Webex Messages as AI Context) (15 min)
+- [ ] 2b: Ask Me Anything for Webex Spaces (RAG over Webex Conversations) (30 min)
 
 ## Suggested Implementation Order
 
