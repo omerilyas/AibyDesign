@@ -81,11 +81,6 @@ nav:
       - "2a: Connect LangChain to Webex Messaging": module-2-langchain-for-messaging-intelligence/module-2a-connect-langchain-to-webex-messaging.md
       - "2b: Ask Me Anything for Webex Spaces": module-2-langchain-for-messaging-intelligence/module-2b-ask-me-anything-webex-spaces.md
       - "2c: Generate Space Summaries": module-2-langchain-for-messaging-intelligence/module-2c-generate-space-summaries.md
-
-  - Appendix:
-      - Overview: appendix/index.md
-      - Slido Reference: appendix/slido.md
-      - Vidcast Reference: appendix/vidcast.md
-      - "Legacy / Additional Items": appendix/legacy-or-extra-items.md
+      - "2d: AI Rewrite Assistant": module-2-langchain-for-messaging-intelligence/module-2d-ai-rewrite-assistant.md
 
   - Project Task Board: project-task-board.md

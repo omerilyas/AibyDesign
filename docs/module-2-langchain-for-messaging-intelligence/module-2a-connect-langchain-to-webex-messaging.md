@@ -496,7 +496,7 @@ Message metadata:
 }
 ```
 
-## Task 2a Summary
+## Task 1 (2a) Summary
 
 In this task, we connected Google Colab to Webex Messaging using the Webex APIs.
 

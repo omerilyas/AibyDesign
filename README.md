@@ -103,6 +103,5 @@ The site will update within 1-2 minutes. Check deployment status at https://gith
     ├── js/interactive-checkboxes.js # Task progress + celebration
     ├── js/floating-notepad.js       # Per-page notepad
     ├── module-1-setup-your-lab-environment/
-    ├── module-2-langchain-for-messaging-intelligence/
-    └── appendix/
+    └── module-2-langchain-for-messaging-intelligence/
 ```

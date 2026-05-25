@@ -543,7 +543,7 @@ send_message_to_webex(
 
 You should see `Status Code: 200` (or `201`) and a confirmation, and the message will appear in **Charles's Space** in your Webex App.
 
-## Task 2c Summary
+## Task 3 (2c) Summary
 
 In this task, we built a **Space Summary Assistant** for Webex messages.
 
