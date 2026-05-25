@@ -453,6 +453,15 @@ print(standup_summary)
 
 Three different chains, three different summaries, all from the same Webex space. The prompt is doing all the work.
 
+!!! note "Example, add the following to the rules in the prompt"
+    Try adding this line to the **Rules** section of the stand-up prompt to give the summary a bit of personality:
+
+    ```text
+    - Make jokes based on the content, so we can have a laugh as well.
+    ```
+
+    Re-run the cell and notice how the same Webex conversation produces a noticeably different tone. Same chain, same model, just one extra rule in the prompt.
+
 ### Step 14 (Optional): Let the user choose the summary type
 
 For a more interactive Colab experience, you can let the user pick which summary they want.

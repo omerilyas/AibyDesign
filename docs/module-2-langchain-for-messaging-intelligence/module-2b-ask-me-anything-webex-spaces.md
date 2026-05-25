@@ -21,7 +21,7 @@ For example:
 * Did anyone mention Cisco Live?
 * Who is responsible for testing the lab?
 
-This is similar to the native **Webex AI Assistant** experience, where users can ask questions about recent activity in a space. The goal here is not to replace Webex AI Assistant. The goal is to understand the building blocks behind this type of experience, so you can apply the same pattern to your own data later.
+This is similar to the native **Cisco AI Assistant** experience, where users can ask questions about recent activity in a space. The goal here is not to replace Cisco AI Assistant. The goal is to understand the building blocks behind this type of experience, so you can apply the same pattern to your own data later.
 
 We will do this using **RAG** (Retrieval-Augmented Generation): pull only the most relevant Webex messages, hand them to the LLM as context, and let the LLM answer the question using that context instead of its own memory.
 
