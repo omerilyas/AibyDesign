@@ -609,7 +609,7 @@ Ask a question about your Webex space: What did the team agree to do next?
 
 The notebook will then call `ask_webex_space(user_question)` for you, so you'll see the question, the answer, and the source Webex messages, exactly like the previous step.
 
-## Task 2 Summary
+## Task 2b Summary
 
 In this task, we built a simplified **Ask Me Anything** experience for Webex messages.
 

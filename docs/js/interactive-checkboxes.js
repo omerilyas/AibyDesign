@@ -17,7 +17,7 @@
   var URL_TO_TASK = {
     "module-1a": "1a", "module-1b": "1b", "module-1c": "1c",
     "module-1d": "1d", "module-1e": "1e",
-    "module-2a": "2a", "module-2b": "2b"
+    "module-2a": "2a", "module-2b": "2b", "module-2c": "2c"
   };
 
   // Also match "About this Lab"

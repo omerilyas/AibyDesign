@@ -31,7 +31,7 @@
 
 <div style="display:flex;justify-content:center;flex-wrap:wrap;gap:0.5rem;">
 <span style="font-size:0.78rem;font-weight:700;color:#0288d1;background:#fff;padding:0.35rem 0.9rem;border-radius:24px;letter-spacing:0.04em;">⚡ CISCO LIVE US 2026</span>
-<span style="font-size:0.78rem;font-weight:700;color:#fff;background:rgba(255,255,255,0.18);border:1px solid rgba(255,255,255,0.35);padding:0.35rem 0.9rem;border-radius:24px;letter-spacing:0.04em;backdrop-filter:blur(4px);">2 MODULES · ~75 MIN</span>
+<span style="font-size:0.78rem;font-weight:700;color:#fff;background:rgba(255,255,255,0.18);border:1px solid rgba(255,255,255,0.35);padding:0.35rem 0.9rem;border-radius:24px;letter-spacing:0.04em;backdrop-filter:blur(4px);">2 MODULES · ~95 MIN</span>
 <span style="font-size:0.78rem;font-weight:700;color:#fff;background:rgba(255,255,255,0.18);border:1px solid rgba(255,255,255,0.35);padding:0.35rem 0.9rem;border-radius:24px;letter-spacing:0.04em;backdrop-filter:blur(4px);">🐍 PYTHON · LANGCHAIN · WEBEX APIs</span>
 </div>
 
@@ -100,7 +100,7 @@
 </div>
 
 <h2 style="margin-bottom:0.2rem;">Lab Modules</h2>
-<p style="color:var(--md-default-fg-color--light);margin-bottom:1.2rem;font-size:0.92rem;">2 modules &middot; ~75 minutes &middot; Hands-on AI for Webex Messaging with LangChain</p>
+<p style="color:var(--md-default-fg-color--light);margin-bottom:1.2rem;font-size:0.92rem;">2 modules &middot; ~95 minutes &middot; Hands-on AI for Webex Messaging with LangChain</p>
 
 <div style="display:grid;grid-template-columns:repeat(2, 1fr);gap:1rem;margin-bottom:2rem;">
 
@@ -130,7 +130,7 @@
 <div class="module-card-inner" style="background:var(--md-code-bg-color, #f5f5f5);border-radius:12px;padding:1.2rem 1.3rem;border:1px solid var(--md-default-fg-color--lightest, #e0e0e0);border-left:4px solid #0288d1;cursor:pointer;width:100%;display:flex;flex-direction:column;">
 <div style="display:flex;align-items:center;justify-content:space-between;margin-bottom:0.5rem;">
 <span style="font-size:0.75rem;font-weight:700;color:#fff;background:#0288d1;padding:0.15rem 0.6rem;border-radius:20px;">MODULE 2</span>
-<span style="font-size:0.78rem;font-weight:600;color:var(--md-default-fg-color--light);">45 min</span>
+<span style="font-size:0.78rem;font-weight:600;color:var(--md-default-fg-color--light);">65 min</span>
 </div>
 <div style="font-weight:700;font-size:0.95rem;line-height:1.4;">LangChain for Messaging Intelligence</div>
 <div style="font-size:0.8rem;color:var(--md-default-fg-color--light);margin-top:0.3rem;">Read Webex messages as Documents, then build a RAG-based Ask Me Anything for any space</div>
@@ -140,6 +140,7 @@
 <div style="display:flex;flex-direction:column;gap:0.25rem;font-size:0.78rem;color:var(--md-default-fg-color);line-height:1.45;">
 <div><span style="font-weight:700;color:#0288d1;">2a</span> &middot; Connect LangChain to Webex Messaging</div>
 <div><span style="font-weight:700;color:#0288d1;">2b</span> &middot; Ask Me Anything for Webex Spaces</div>
+<div><span style="font-weight:700;color:#0288d1;">2c</span> &middot; Generate Space Summaries</div>
 </div>
 </div>
 </div>
