@@ -17,7 +17,7 @@ Go to the [Webex Developer Portal](https://developer.webex.com/){:target="_blank
 
     **Example:** 👉 `cholland@cb123.dc-01.com`
 
-    The password for your assigned account can be found in the **`Credentials.txt`** file available in your demo environment.
+    The credentials for your assigned account for this lab can be found in the **`Session_Info.txt`** file on Workstation 1's desktop.
 
 ### 2. Copy your Bearer token
 
