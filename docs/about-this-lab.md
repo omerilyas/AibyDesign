@@ -1,6 +1,6 @@
 # About this Lab: Building AI-Powered Messaging with LangChain & Webex
 
-In Modules 1 to 4, you explored how Cisco Webex uses Artificial Intelligence to enhance collaboration experiences across Messaging, Calling, and Meetings. You experienced capabilities such as AI-powered message assistance, conversation summaries, smart rewrites, live translations, meeting intelligence, captions, transcriptions, and AI-generated insights.
+In Modules 1 to 4 of the Webex AI lab you explored how Cisco Webex uses Artificial Intelligence to enhance collaboration experiences across Messaging, Calling, and Meetings. You experienced capabilities such as AI-powered message assistance, conversation summaries, smart rewrites, live translations, meeting intelligence, captions, transcriptions, and AI-generated insights.
 
 While these features demonstrate what AI can do inside Webex, the next logical step is to understand how these experiences are actually built.
 

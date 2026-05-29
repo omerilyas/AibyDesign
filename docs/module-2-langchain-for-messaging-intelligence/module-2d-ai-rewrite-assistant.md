@@ -24,7 +24,7 @@ Now, in **Task 4**, we will build an **AI Rewrite Assistant**. This assistant wi
 * **Customer-ready**
 * **Concise**
 
-This is similar to the native **Webex AI Assistant Smart Rewrite** capability, where AI can help improve a message before it is sent. The goal here is not to replace the built-in Webex AI feature. The goal is to understand how LangChain chains can be used to build this type of experience.
+This is similar to the native **Cisco Smart Rewrite** capability, where AI can help improve a message before it is sent. The goal here is not to replace the built-in Webex AI feature. The goal is to understand how LangChain chains can be used to build this type of experience.
 
 ## What You Will Learn
 
@@ -53,7 +53,7 @@ You should already have the following in memory from earlier tasks:
 * **`output_parser`** (created in [Task 3](module-2c-generate-space-summaries.md))
 
 !!! note "Don't have `llm` and `output_parser` yet?"
-    No problem. This task re-runs the setup for you in [Step 1](#step-1-confirm-or-create-the-llm-and-output-parser), so you can start cleanly even if you skipped one of the earlier tasks.
+    No problem. This task re-runs the setup for you in [Step 1](#step-1-confirm-or-create-the-llm-and-output-parser) below, so you can start cleanly even if you skipped one of the earlier tasks.
 
 ## Steps
 

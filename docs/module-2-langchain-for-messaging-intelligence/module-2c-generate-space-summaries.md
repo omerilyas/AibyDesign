@@ -22,7 +22,7 @@ Now, in **Task 3**, we will build a **Space Summary Assistant**. Instead of aski
 * Risks or blockers
 * Open questions
 
-This is similar to the native **Webex AI Assistant** space summary feature, where users can catch up on missed messages and recent conversation activity. The goal here is not to replace Webex AI Assistant. The goal is to understand how this kind of workflow can be built using **LangChain prompt templates and chains**.
+This is similar to the native **Cisco AI Assistant** space summary feature, where users can catch up on missed messages and recent conversation activity. The goal here is not to replace Cisco AI Assistant. The goal is to understand how this kind of workflow can be built using **LangChain prompt templates and chains**.
 
 ## What You Will Learn
 

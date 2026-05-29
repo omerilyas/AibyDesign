@@ -5,12 +5,12 @@
 <span style="font-size:0.8rem;font-weight:600;color:var(--md-default-fg-color--light);">30 min estimated</span>
 </div>
 
-Before you start building AI-powered messaging workflows, this module gets your foundation in place: a Webex API access token tied to your assigned account, a place to run Python notebooks, an OpenAI API key for the LangChain pieces of the lab, and quick reads on Streamlit and ngrok (the UI framework and public-tunnel tool you'll use at the end of the lab).
+Before you start building AI-powered messaging workflows, this module gets your foundation in place: a Webex API access token tied to your assigned account, a place to run Python notebooks, and an OpenAI API key for the LangChain pieces of the lab. Tasks 1d and 1e (Streamlit and ngrok) are included as optional background reading for future use, they are not used in this lab.
 
 ## Tasks in this module
 
 - [ ] [1a: Webex Developer Portal Setup](module-1a-webex-developer-portal.md) (10 min)
 - [ ] [1b: Google Colab Setup](module-1b-google-colab.md) (5 min)
 - [ ] [1c: Managing API Keys in Colab](module-1c-managing-api-keys-in-colab.md) (5 min)
-- [ ] [1d: Introduction to Streamlit](module-1d-introduction-to-streamlit.md) (5 min)
-- [ ] [1e: Introduction to ngrok](module-1e-introduction-to-ngrok.md) (5 min)
+- [ ] [1d: Introduction to Streamlit](module-1d-introduction-to-streamlit.md) (5 min) *(optional, for info only, not part of this lab)*
+- [ ] [1e: Introduction to ngrok](module-1e-introduction-to-ngrok.md) (5 min) *(optional, for info only, not part of this lab)*

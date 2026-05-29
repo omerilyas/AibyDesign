@@ -5,7 +5,7 @@
 <span style="font-size:0.8rem;font-weight:600;color:var(--md-default-fg-color--light);">90 min estimated</span>
 </div>
 
-In earlier modules you explored Webex AI Assistant features such as **Ask Me Anything**, **Space Summaries**, **Smart Rewrite**, and **Translation**. These features show how AI can help users understand conversations, catch up quickly, improve communication, and work across languages.
+In earlier modules you explored Cisco AI Assistant features such as **Ask Me Anything**, **Space Summaries**, **Smart Rewrite**, and **Translation**. These features show how AI can help users understand conversations, catch up quickly, improve communication, and work across languages.
 
 In this module, we will take a step further and explore how AI frameworks like **LangChain** can be used to build simplified versions of these experiences using the **Webex Messaging APIs**.
 

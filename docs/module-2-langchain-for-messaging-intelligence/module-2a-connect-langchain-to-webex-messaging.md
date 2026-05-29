@@ -199,7 +199,7 @@ What's happening here:
 Status Code: 200
 ```
 
-You'll also see a JSON object with details about the Webex user associated with the token. The example below shows what that JSON looks like for one lab pod (Charles Holland on `cb426`):
+You'll also see a JSON object with details about the Webex user associated with the token. The example below shows what that JSON looks like for one lab pod (Charles Holland on `cb426.dc-01.com`):
 
 ```json
 {
@@ -283,12 +283,6 @@ print("Using room ID:", ROOM_ID)
 
 !!! warning "Use your own Room ID"
     Replace `PASTE-YOUR-WEBEX-ROOM-ID-HERE` with the **room ID from your own pod** (the value you copied from the previous step's output, next to **Charles's Space**). Every dCloud pod has a different room ID, so the example below will not work in your notebook.
-
-**Example (will not work for you, just for reference):**
-
-```py linenums="1"
-ROOM_ID = "Y2lzY29zcGFyazovL3VzL1JPT00vxxxxxxxx"
-```
 
 ### Step 10: Read Recent Messages from the Webex Space
 
