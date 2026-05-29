@@ -1,4 +1,4 @@
-# Module 1d: Introduction to Streamlit
+# Module 1d: Introduction to Streamlit *(optional, for info only, not part of this lab)*
 
 Toward the end of this lab, you'll wrap everything you've built (reading Webex messages, asking questions about a space, generating summaries, rewriting messages, and orchestrating an agent) into a small web app that you can actually click through. The framework we'll use for that web app is **Streamlit**.
 

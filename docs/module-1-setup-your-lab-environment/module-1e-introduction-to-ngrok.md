@@ -1,4 +1,4 @@
-# Module 1e: Introduction to ngrok
+# Module 1e: Introduction to ngrok *(optional, for info only, not part of this lab)*
 
 When you build the Streamlit app at the end of the lab, it will run inside your Google Colab notebook. By default that app is only reachable from inside the Colab environment, which means you can't open it in your browser, share it with a teammate, or have Webex send notifications to it. To get around that, we'll use **ngrok**.
 
