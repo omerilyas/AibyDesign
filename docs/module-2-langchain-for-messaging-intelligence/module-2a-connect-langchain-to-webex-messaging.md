@@ -128,7 +128,8 @@ In your Colab notebook, click **+ Code** to add a new cell, then run:
 ![Add a new code cell with + Code in Colab](img/module-2a-006.png)
 
 ```py linenums="1"
-!pip install requests langchain langchain-core
+!pip install requests
+!pip install langchain==0.3.27 langchain-core==0.3.72 langchain-community==0.3.27 langchain-openai==0.3.28 faiss-cpu
 ```
 
 For Task 1 we only need:

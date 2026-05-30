@@ -97,6 +97,8 @@ You should see a Python list of `Document` objects, one per Webex message, each 
 
 Task 1 only needed `requests` and `langchain-core`. Task 2 introduces the LLM, embeddings, and a vector store, so we need a few more packages.
 
+If you already installed the LangChain packages back in Task 1 (Step 5), you do not need to install them again. Skip ahead to Step 3 of this task.
+
 In a new code cell, run:
 
 ```py linenums="1"
