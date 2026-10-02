@@ -69,6 +69,9 @@ Open the **Secrets** section from the left sidebar in Colab and add the followin
 
 * `WEBEX_ACCESS_TOKEN`
 
+!!! note "Don't have your token yet?"
+    For now, just create the secret with the name `WEBEX_ACCESS_TOKEN` and leave the **Value** empty. You'll copy your Webex personal access token from the Developer Portal in [Step 3](#step-3-get-your-webex-personal-access-token) and paste it in then.
+
 ![Add a new secret named WEBEX_ACCESS_TOKEN in the Colab Secrets panel](img/module-2a-003.png)
 
 Optional for later tasks (you can add it now to save time):
@@ -111,7 +114,7 @@ You now need a Webex space that contains some messages. You can use:
 For the best experience, post a few messages in the space so the AI assistant has something to work with. For example:
 
 ```text
-Hi team, we need to prepare the Cisco Live LangChain demo.
+Hi team, we need to prepare the WebexOne LangChain demo.
 Can someone confirm who owns the Webex API part?
 I will test the Google Colab notebook today.
 The main action item is to build a simple AMA experience.

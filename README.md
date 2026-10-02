@@ -1,6 +1,6 @@
-# LTRCOL-2011: AI by Design for Collaboration
+# AI by Design for Collaboration
 
-Hands-on lab guide for **Cisco Live US 2026** covering AI-powered features across Webex Messaging, Calling, Meetings, Customer Assist, Contact Center, Slido, and Vidcast.
+Hands-on lab guide for **WebexOne 2026** covering AI-powered features across Webex Messaging, Calling, Meetings, Customer Assist, Contact Center, Slido, and Vidcast.
 
 **Live site:** https://omerilyas.github.io/AibyDesign/
 

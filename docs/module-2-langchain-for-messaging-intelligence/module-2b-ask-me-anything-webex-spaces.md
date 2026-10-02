@@ -384,6 +384,9 @@ llm = ChatOpenAI(
 print("LLM ready.")
 ```
 
+!!! note "GPT-4o is used for demo purposes only"
+    OpenAI officially retired GPT-4o from ChatGPT on February 13, 2026. We use it in this lab for demo purposes only. For your own projects, switch the `model` value to one of OpenAI's current models.
+
 What's happening here:
 
 * **`ChatOpenAI`** is the LangChain wrapper around OpenAI's chat models. It uses the `OPENAI_API_KEY` environment variable we set in [Step 3](#step-3-load-your-openai-api-key-from-colab-secrets) automatically.

@@ -1,4 +1,4 @@
-# LTRCOL-2011: AI by Design for Collaboration
+# AI by Design for Collaboration
 
 <div class="hero-banner" style="position:relative;border-radius:18px;padding:2.2rem 1.4rem 2rem;margin:1.2rem 0 2.4rem;background:linear-gradient(135deg,#004d66 0%,#0288d1 45%,#7b1fa2 100%);color:#fff;overflow:hidden;text-align:center;box-shadow:0 12px 32px rgba(0,0,0,0.18);">
 
@@ -23,14 +23,12 @@
 </pre>
 </div>
 
-<div style="font-size:0.78rem;font-weight:700;letter-spacing:0.32em;color:rgba(255,255,255,0.78);margin-bottom:0.4rem;">LTRCOL-2011</div>
-
 <div class="hero-title" style="font-weight:800;line-height:1.15;margin:0 0 0.6rem;color:#fff;">AI by Design for Collaboration</div>
 
 <div class="hero-tagline" style="color:rgba(255,255,255,0.92);max-width:640px;margin:0 auto 1.4rem;line-height:1.5;">Hands-on AI for Cisco Webex Messaging, built with LangChain, Google Colab, and a few lines of Python.</div>
 
 <div style="display:flex;justify-content:center;flex-wrap:wrap;gap:0.5rem;">
-<span style="font-size:0.78rem;font-weight:700;color:#0288d1;background:#fff;padding:0.35rem 0.9rem;border-radius:24px;letter-spacing:0.04em;">⚡ CISCO LIVE US 2026</span>
+<span style="font-size:0.78rem;font-weight:700;color:#0288d1;background:#fff;padding:0.35rem 0.9rem;border-radius:24px;letter-spacing:0.04em;">⚡ WEBEXONE 2026</span>
 <span style="font-size:0.78rem;font-weight:700;color:#fff;background:rgba(255,255,255,0.18);border:1px solid rgba(255,255,255,0.35);padding:0.35rem 0.9rem;border-radius:24px;letter-spacing:0.04em;backdrop-filter:blur(4px);">2 MODULES · ~120 MIN</span>
 <span style="font-size:0.78rem;font-weight:700;color:#fff;background:rgba(255,255,255,0.18);border:1px solid rgba(255,255,255,0.35);padding:0.35rem 0.9rem;border-radius:24px;letter-spacing:0.04em;backdrop-filter:blur(4px);">🐍 PYTHON · LANGCHAIN · WEBEX APIs</span>
 </div>
